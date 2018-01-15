@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render a About 1`] = `
+<div>
+  <div>
+    <h2>
+      About 
+      Ayan
+    </h2>
+  </div>
+  <input
+    onChange={[Function]}
+    type="text"
+    value="Ayan"
+  />
+  <Hello
+    enthusiasmLevel={1}
+    name="Ayan"
+    onDecrement={[Function]}
+    onIncrement={[Function]}
+  />
+</div>
+`;

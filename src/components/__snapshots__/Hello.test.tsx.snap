@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the correct text with an explicit enthusiasm level of 5 1`] = `
+<div
+  data-sumo-test="hello"
+>
+  <div
+    className="greeeting"
+  >
+    Hello 
+    Ayan!!!!!
+  </div>
+  <button
+    className="increment"
+  >
+     + 
+  </button>
+  <button>
+     - 
+  </button>
+</div>
+`;
