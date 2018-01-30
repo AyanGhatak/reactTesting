@@ -2,7 +2,7 @@
 
 exports[`renders the correct text with an explicit enthusiasm level of 5 1`] = `
 <div
-  data-sumo-test="hello"
+  data-sumo-test="hello123"
 >
   <div
     className="greeeting"

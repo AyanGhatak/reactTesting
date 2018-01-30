@@ -12,7 +12,7 @@ class Hello extends React.Component implements Hello {
   render() {
     const { name, enthusiasmLevel = 1, onIncrement, onDecrement  } = this.props;
     return (
-      <div data-sumo-test="hello">
+      <div data-sumo-test="hello123">
         <div className="greeeting">
           Hello {name + Array(enthusiasmLevel + 1).join('!')}
         </div>

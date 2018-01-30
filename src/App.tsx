@@ -13,9 +13,15 @@ const App = () => (
   <Router>
     <div>
       <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/about">About</Link></li>
-        <li><Link to="/topics">Topics</Link></li>
+        <li>
+          <Link to="/"> <span className="home-action">Home</span> </Link>
+        </li>
+        <li>
+          <Link to="/about"><span className="about-action">About</span></Link>
+        </li>
+        <li>
+          <Link to="/topics"><span className="about-action">Topics</span></Link>
+        </li>
       </ul>
 
       <hr />
